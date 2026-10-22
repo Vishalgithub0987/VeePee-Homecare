@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF5F1" />
+      <stop offset="60%" stop-color="#F2F8F5" />
+      <stop offset="100%" stop-color="#FCFBF7" />
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#237A73" />
+      <stop offset="100%" stop-color="#145C59" />
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5CA85" />
+      <stop offset="100%" stop-color="#D6B46A" />
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#145C59" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="640" height="480" rx="24" fill="url(#bgGrad)" />
+
+  <!-- Subtle Home Architecture Lines & Warm Window Light -->
+  <g opacity="0.45">
+    <rect x="420" y="40" width="160" height="200" rx="16" fill="#FFFFFF" stroke="#E2EAE7" stroke-width="2" />
+    <line x1="500" y1="40" x2="500" y2="240" stroke="#E2EAE7" stroke-width="2" />
+    <line x1="420" y1="140" x2="580" y2="140" stroke="#E2EAE7" stroke-width="2" />
+    <!-- Warm indoor plant -->
+    <path d="M480 340 L520 340 L510 380 L490 380 Z" fill="#D5ECE3" />
+    <path d="M500 340 Q485 300 470 310 Q490 325 500 340 Z" fill="#237A73" opacity="0.6" />
+    <path d="M500 340 Q515 295 530 305 Q510 325 500 340 Z" fill="#145C59" opacity="0.7" />
+    <path d="M500 340 Q500 280 500 340" stroke="#287D53" stroke-width="3" />
+  </g>
+
+  <!-- Ground / Flooring Horizon -->
+  <line x1="40" y1="410" x2="600" y2="410" stroke="#E2EAE7" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Comfortable Home Armchair for Patient -->
+  <g id="armchair">
+    <!-- Backrest -->
+    <rect x="120" y="190" width="130" height="180" rx="24" fill="#3A535C" />
+    <rect x="135" y="205" width="100" height="150" rx="16" fill="#486772" />
+    <!-- Seat Cushion -->
+    <rect x="110" y="320" width="160" height="60" rx="14" fill="#5A7D8A" />
+    <!-- Chair Legs -->
+    <rect x="125" y="380" width="12" height="30" rx="4" fill="#24343B" />
+    <rect x="235" y="380" width="12" height="30" rx="4" fill="#24343B" />
+  </g>
+
+  <!-- Elderly Patient Sitting Reassured -->
+  <g id="patient">
+    <!-- Body / Soft Cardigan -->
+    <path d="M140 280 Q190 270 205 350 L145 350 Z" fill="#7D939C" />
+    <path d="M145 350 L205 350 L210 400 L185 400 L175 365 L145 365 Z" fill="#4B5E66" />
+    <!-- Neck & Head -->
+    <rect x="160" y="235" width="16" height="15" rx="4" fill="#F4B886" />
+    <circle cx="168" cy="215" r="22" fill="#FCD5B5" />
+    <!-- Silver Hair -->
+    <path d="M148 215 C148 195 188 195 188 215 C185 205 152 205 148 215 Z" fill="#D3DCD9" />
+    <!-- Spectacles & Gentle Facial Features -->
+    <circle cx="162" cy="215" r="6" fill="none" stroke="#24343B" stroke-width="1.8" />
+    <circle cx="176" cy="215" r="6" fill="none" stroke="#24343B" stroke-width="1.8" />
+    <line x1="168" y1="215" x2="170" y2="215" stroke="#24343B" stroke-width="1.8" />
+    <path d="M164 228 Q170 231 176 228" fill="none" stroke="#944B43" stroke-width="2" stroke-linecap="round" />
+    <!-- Relaxed Hands holding a warm cup or resting -->
+    <circle cx="210" cy="325" r="8" fill="#F4B886" />
+  </g>
+
+  <!-- Professional Healthcare Nurse Standing Caringly -->
+  <g id="nurse">
+    <!-- Nurse Body / Teal Uniform -->
+    <path d="M280 230 C280 190 330 190 350 230 L365 390 L275 390 Z" fill="url(#tealGrad)" />
+    <!-- V-Collar -->
+    <polygon points="305,205 325,205 315,225" fill="#EAF5F1" />
+    <!-- Stethoscope -->
+    <path d="M300 215 C300 240 330 240 330 215" fill="none" stroke="#D6B46A" stroke-width="3" />
+    <circle cx="315" cy="250" r="5" fill="#FCFBF7" stroke="#145C59" stroke-width="2" />
+    <!-- Caring Arm reaching toward patient in gentle assistance -->
+    <path d="M285 235 Q250 260 215 315" fill="none" stroke="#237A73" stroke-width="14" stroke-linecap="round" />
+    <circle cx="215" cy="315" r="7" fill="#F4B886" />
+    <!-- Neck & Face -->
+    <rect x="307" y="175" width="16" height="18" rx="4" fill="#F4B886" />
+    <circle cx="315" cy="155" r="22" fill="#FCD5B5" />
+    <!-- Nurse Hair Bun -->
+    <circle cx="315" cy="130" r="14" fill="#2A2421" />
+    <path d="M295 155 C295 135 335 135 335 155 C330 145 300 145 295 155 Z" fill="#2A2421" />
+    <!-- Friendly Nurse Smile & Eyes -->
+    <ellipse cx="308" cy="153" rx="2" ry="2.5" fill="#24343B" />
+    <ellipse cx="322" cy="153" rx="2" ry="2.5" fill="#24343B" />
+    <path d="M310 163 Q315 168 320 163" fill="none" stroke="#B3423A" stroke-width="2" stroke-linecap="round" />
+    <!-- Nurse Badge -->
+    <rect x="330" y="225" width="14" height="18" rx="2" fill="#FCFBF7" stroke="#E2EAE7" stroke-width="1" />
+    <rect x="333" y="228" width="8" height="4" rx="1" fill="#145C59" />
+  </g>
+
+  <!-- Floating Floating Quality Badges in Composition -->
+  <!-- Badge 1: Compassionate Nursing -->
+  <g filter="url(#cardShadow)">
+    <rect x="40" y="60" width="190" height="58" rx="12" fill="#FFFFFF" stroke="#E2EAE7" stroke-width="1.5" />
+    <circle cx="70" cy="89" r="18" fill="#EAF5F1" />
+    <path d="M64 89 L68 93 L76 85" fill="none" stroke="#145C59" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="96" y="82" font-family="Plus Jakarta Sans, sans-serif" font-size="12" font-weight="700" fill="#24343B">Compassionate Care</text>
+    <text x="96" y="98" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#66777C">Experienced Nurses</text>
+  </g>
+
+  <!-- Badge 2: Prompt Local Support in Vellore -->
+  <g filter="url(#cardShadow)">
+    <rect x="410" y="320" width="200" height="62" rx="12" fill="#FFFFFF" stroke="#E2EAE7" stroke-width="1.5" />
+    <circle cx="442" cy="351" r="18" fill="#FCFBF7" stroke="#D6B46A" stroke-width="1.5" />
+    <path d="M442 342 L442 360 M433 351 L451 351" stroke="#D6B46A" stroke-width="2.5" stroke-linecap="round" />
+    <text x="468" y="344" font-family="Plus Jakarta Sans, sans-serif" font-size="12" font-weight="700" fill="#24343B">Serving Vellore</text>
+    <text x="468" y="360" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#66777C">Medical Beds &amp; Oxygen</text>
+  </g>
+</svg>
